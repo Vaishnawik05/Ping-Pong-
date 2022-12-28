@@ -18,13 +18,34 @@
         <center>
             <div class="btn btn-warning heading">
                 <h3 id="heading">AI PING PONG</h3>
-                <button class="btn btn-warning" data-toggle="model" data-target="#myModal">Instructions</button>
+                <button class="btn btn-warning" data-toggle="modal" data-target="#myModal">Instructions</button>
             </div>
             <br><br>
             <button class="btn btn-success" onclick="startGame()" id="start">Play</button>
+            <button class="btn btn-danger" onclick="restart()" id="restart">Restart</button>
             <br>
             <h2 class="btn" id="status"> </h2>
             <div id="canvas"></div>
+            <br>
+            <div id="myModal" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button class="close" data-dismiss="modal">&times;</button>
+                            <h4>Instructions</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>1. First keep your laptop screen straight</p>
+                            <p>2. Move yourself approximately 3-4 feet away from the laptop</p>
+                            <p>3. Move your right wrist in an ascending and decending manner, a red should appear on your right wrist</p>
+                            <p>4. Now press the lay button, and move yourself 3-4 feet away from your laptop</p>
+                            <p>5. The red paddle is your paddle, that will move as per the movement of your right wrist</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="copy_right_footer">Developed By: Vaishnawi</div>
            </center>
         <script src="main.js"></script>
     </body>

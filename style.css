@@ -11,7 +11,7 @@
     border: 1px solid white;
 }
 
-#start{
+#start, #restart{
     font-size: 22px;
 }
 #heading{
@@ -20,4 +20,18 @@
 
 #status{
     background-color: blue;
+}
+
+.copy_right_footer{
+    position: fixed;
+    color:white;
+    bottom: 0;
+    background-color: grey;
+    line-height: 3;
+    text-align: center;
+    width: 100%;
+}
+
+.modal-body{
+    text-align: left;
 }
